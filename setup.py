@@ -12,7 +12,7 @@ requires = [
     'colorama>=0.3.9,<0.4.0',  # use the same range that 'docker-compose' uses
     'pathspec==0.5.5',
     'python-dateutil>=2.1,<3.0.0',  # use the same range that 'botocore' uses
-    'pyyaml>=3.11',
+    'pyyaml>=3.11,<4.0',  # use the same (upper) range that 'docker-compose' uses
     'setuptools >= 20.0',
     'docker-compose >= 1.21.2, < 1.22.0',
     'semantic_version == 2.5.0',
